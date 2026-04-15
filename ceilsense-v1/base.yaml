@@ -367,6 +367,6 @@ text_sensor:
       return {"${ceilsense_hardware_version}"};
 
 # Script placeholder
-  - id: play_stream
-    then:
-      - delay: 10ms
+ # - id: play_stream
+  #  then:
+  #    - delay: 10ms
