@@ -2,8 +2,8 @@ substitutions:
   device_name: ceilsense
   friendly_name: "CeilSense"
   ceilsense_hardware_version: "v1-basic-eth-ld2412"
-  wifi_update_manifest_url: "https://smarthomeshop.github.io/ceilsense/ceilsense-basic-wifi-ld2412-manifest.json"
-  eth_update_manifest_url: "https://smarthomeshop.github.io/ceilsense/ceilsense-basic-eth-ld2412-manifest.json"
+  wifi_update_manifest_url: "https://dr-know.github.io/ceilsense/ceilsense-basic-wifi-ld2412-manifest.json"
+  eth_update_manifest_url: "https://dr-know.github.io/ceilsense/ceilsense-basic-eth-ld2412-manifest.json"
   default_network: "Ethernet"
 
 esphome:
@@ -16,5 +16,5 @@ packages:
   ld2412: !include packages/ld2412.yaml
 
 dashboard_import:
-  package_import_url: github://smarthomeshop/ceilsense/ceilsense-v1/ceilsense-basic-eth-ld2412.yaml@main
+  package_import_url: github://dr-know/ceilsense/ceilsense-v1/ceilsense-basic-eth-ld2412.yaml@main
   import_full_config: false
