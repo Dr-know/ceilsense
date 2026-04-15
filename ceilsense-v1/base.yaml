@@ -11,8 +11,8 @@ substitutions:
   build_variant: "ceilsense"
   log_level: "INFO"
   # Default manifests (overridden by variants)
-  wifi_update_manifest_url: "https://smarthomeshop.github.io/ceilsense/ceilsense-basic-wifi-manifest.json"
-  eth_update_manifest_url: "https://smarthomeshop.github.io/ceilsense/ceilsense-basic-eth-manifest.json"
+  wifi_update_manifest_url: "https://dr-know.github.io/ceilsense/ceilsense-basic-wifi-manifest.json"
+  eth_update_manifest_url: "https://dr-know.github.io/ceilsense/ceilsense-basic-eth-manifest.json"
   default_network: "WiFi"
   i2c_frequency: "400kHz"
 
